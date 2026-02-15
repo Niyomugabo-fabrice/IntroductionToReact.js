@@ -4,12 +4,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Home from "./Components/Home.tsx"
 import Product from "./Components/Products.tsx"
+import Header from "./Components/Header.tsx"
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <p>
+    <Header/>
     <Home/>
     <Product/>
     </p>
