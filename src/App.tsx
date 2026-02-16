@@ -12,8 +12,7 @@ function App() {
   return (
     <p>
     <Header/>
-    <Home/>
-    <Product/>
+    <p>Welcome to our IntoreShop customer is a King.</p>
     </p>
   )
 }
