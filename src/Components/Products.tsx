@@ -1,4 +1,4 @@
-export default function Product()
+export default function Products()
 {
     let products=["Iphone","Tablets","Smartphones","Speakers","Laptops"];
     let ProductList=products.map(product=><li>{product}</li>);

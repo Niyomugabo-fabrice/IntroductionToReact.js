@@ -5,14 +5,15 @@ import './App.css'
 import Home from "./Components/Home.tsx"
 import Product from "./Components/Products.tsx"
 import Header from "./Components/Header.tsx"
+import AppRoute from "./AppRoutes/AppRoutes.tsx"
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <p>
+    <AppRoute/>
     <Header/>
-    <p>Welcome to our IntoreShop customer is a King.</p>
     </p>
   )
 }
